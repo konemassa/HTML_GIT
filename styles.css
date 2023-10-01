@@ -1,0 +1,65 @@
+
+
+.bod{
+    background-color: gray;
+    width: 800px;
+    height: 100%;
+    
+}
+.entete{
+    background: blanchedalmond;
+    width: 800px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+}
+
+.entete_logo{
+    
+    width: 100px;
+    height: 50px;
+    display: flex;
+    
+}
+
+.entete_menu{
+    
+    width: 400px;
+    height: 50px;
+    display: flex;
+    margin-left: auto;    
+}
+
+entete_menu_nav{
+    list-style: none;
+    margin-right: 50px;
+    text-align: center; 
+    width: 50px;
+    height: 50px;
+    
+}
+
+.accueil1{
+    background-color: yellowgreen;
+    width: 200px;
+    height:200px ;
+    display: inline-block;
+}
+
+.accueil2{
+    background-color: white;
+    width: 548px;
+    height:250px ;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+header{
+    padding: 0px 0px;
+       
+}
