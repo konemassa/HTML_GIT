@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Le titre de la page -->
         <title>TEST HTML </title>
+        <!-- Apelle de css -->
         <link rel="stylesheet" href="styles.css">
+        <!-- Changer l'icon de l'onglet -->
+        <link rel="shortcut icon" href="images/01102023.PNG">
     </head>
-    <meta charset="UTF-8">
+    
     
     <body>
         
@@ -18,12 +24,11 @@
                         <a href="">LOGO</a>
                     </div>
                         <div class="entete_menu">
-                            
-                            <li><a href="#accueil" class="entete_menu_nav" atl="accueil">Accueil</a></li>
-                            <li><a href="#propos" class="entete_menu_nav">a propos</a></li>
-                            <li><a href="#travail" class="entete_menu_nav">Travail</a></li>
-                            <li><a href="#cv" class="entete_menu_nav">CV</a></li>
-                            <li><a href="#contact" class="entete_menu_nav">Contact</a></li>
+                            <li class="liste"><a href="#accueil" atl="accueil">Accueil</a></li>
+                            <li class="liste"><a href="#propos" >a propos</a></li>
+                            <li class="liste"><a href="#travail">Travail</a></li>
+                            <li class="liste"><a href="#cv">CV</a></li>
+                            <li class="liste"><a href="#contact">Contact</a></li>
                             
                         </div> 
                 </nav>
@@ -34,17 +39,17 @@
             <!-- Section Acceuil -->
             <section class="accueil" id="accueil" >
                 <div class="accueil1">
-                    <img src="images/IMG_20230906_192939.jpg" width="200" height="200" alt="">
+                    <img src="images/procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg" width="350" height="350" alt="">
                 </div>
                 <div class="accueil2">
                     <article>
-                        <p>Fiche métier Développeur web
-                            Le développeur web est un architecte du digital, un maçon qui construit des sites internet à partir de codes. Elaboration, développement, mise à jour, il est de toutes les étapes de la vie d'un site. A l'heure où le digital représente un levier incontournable dans la stratégie de toute organisation, le développeur web devient un professionnel aux compétences très recherchées. Avis aux passionnés de nouvelles technologies !
+                        <p>Fiche métier Développeur web <br>
+                            Le développeur web est un architecte du digital, un maçon qui construit des sites internet à partir de codes. Elaboration, développement, mise à jour, il est de toutes les étapes de la vie d'un site. A l'heure où le digital représente un levier incontournable dans la stratégie de toute organisation, le développeur web devient un professionnel aux compétences très recherchées. Avis aux passionnés de nouvelles technologies !<br>
                             
-                            Quelles sont les missions du développeur web ?
-                            Le développeur web est un technicien des sites internet qui intervient à toutes les étapes de son développement : élaboration, construction, mise à jour.
+                            Quelles sont les missions du développeur web ?<br>
+                            Le développeur web est un technicien des sites internet qui intervient à toutes les étapes de son développement : élaboration, construction, mise à jour.<br>
                             
-                            Après avoir analysé les besoins de son clients, il construit l'architecture du site en choisissant les meilleurs outils et langages web. Il mène ensuite des séries de tests pour en vérifier le bon fonctionnement.
+                            Après avoir analysé les besoins de son clients, il construit l'architecture du site en choisissant les meilleurs outils et langages web. Il mène ensuite des séries de tests pour en vérifier le bon fonctionnement.<br>
                             
                             Après livraison, le développeur web est en charge d'intervenir en cas de dysfonctionnement et de mettre à jour le site pour suivre l'avancée des technologies.</p>
                     </article>
@@ -55,10 +60,16 @@
 
                   <!-- Section A propos -->
 
-            <section class="propos" id="propos">
-                <video controls="controls" poster="images/01102023.PNG" width="700" height="400">
-                    <source src="Apprendre_HTML_5_et_CSS3.mp4">
-                </video>               
+            <section class="propos">
+                <h3>A propos</h3>
+                <div class="propos1">
+                    <video controls="controls" poster="images/01102023.PNG" width="700" height="400">
+                        <source src="Apprendre_HTML_5_et_CSS3.mp4">
+                    </video>
+                </div>
+                <article class="art">
+                    <img src="images/desola-lanre-ologun-vII7qKAk-9A-unsplash.jpg" width="500" height="400">
+                </article>             
             </section>
             
 
@@ -66,7 +77,7 @@
 
             <!--  section Travail -->
              <section class="travail" id="travail">
-                <form action="">
+                <form action="" >
                     <fieldset>
                         <legend><h1>veuillez vous connectez a votre espace </h1></legend>
                         <label>Entrer votre Email </label>
@@ -104,11 +115,11 @@
             <!-- Section contact. Merci -->
 
             <section class="contact" id="contact">
-                <form action="contact">
+                <form action="">
                     <fieldset>
                         <legend><h1>voullez-vous prendre contact avec nous ??</h1></legend>
                         <label>Contactez-nous </label><br>
-                        <input type="submit" value="contact">
+                        <input type="submit" value="contact"><br>
                         
                     </fieldset>
                 </form>
